@@ -25,16 +25,16 @@
                             <a class="nav-link active" aria-current="page" href="Principal.jsp">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?action=Producto" target="myFrame">Producto</a>
+                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?menu=Producto" target="myFrame">Producto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?action=Empleado" target="myFrame">Empleado</a>
+                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?menu=Empleado&accion=Listar" target="myFrame">Empleado</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?action=Clientes" target="myFrame">Clientes</a>
+                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?menu=Clientes" target="myFrame">Clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?action=RegistrarVenta" target="myFrame">Nueva Venta</a>
+                            <a class="btn btn-outline-dark" style="margin-left: 10px; border: none; color: white" href="Controlador?menu=RegistrarVenta" target="myFrame">Nueva Venta</a>
                         </li>
                     </ul>
                 </div>
@@ -58,7 +58,7 @@
             </div>
         </nav>
         <div class="m-4" style="height: 550px; ">
-            <iframe name="myFrame" style="height: 100%; width: 100%;">
+            <iframe name="myFrame" style="height: 100%; width: 100%; border: none;">
 
             </iframe>                                
         </div>                

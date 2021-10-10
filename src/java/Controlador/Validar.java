@@ -82,7 +82,7 @@ public class Validar extends HttpServlet {
             emp = emDao.Validar(user, pass);
             if(emp.getUser() != null){
                 request.setAttribute("usuario", emp);
-                request.getRequestDispatcher("Controlador?action=Principal").forward(request, response);
+                request.getRequestDispatcher("Controlador?menu=Principal").forward(request, response);
             }else{
                 request.getRequestDispatcher("index.jsp").forward(request, response);
             }
